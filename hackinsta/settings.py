@@ -26,7 +26,7 @@ SECRET_KEY = "7o7@%0i6$#_qp8pn##679q)xbrn^xzr(6u8rb@87=tc49#+lz&"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','instaliker.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','instaliker11.herokuapp.com']
 
 
 # Application definition
