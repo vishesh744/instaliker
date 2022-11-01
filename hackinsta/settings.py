@@ -24,9 +24,9 @@ TEMPLATE_FILES = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = "7o7@%0i6$#_qp8pn##679q)xbrn^xzr(6u8rb@87=tc49#+lz&"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','instaliker11.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','instaliker11.herokuapp.com']
 
 
 # Application definition
@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',

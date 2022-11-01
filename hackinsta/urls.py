@@ -19,7 +19,7 @@ from . import views
 from app1 import views as app12
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('vish/', admin.site.urls),
     path('', views.index, name="home"),
     path('likes/', views.likes, name='likes'),
     path('save_user/', app12.save_u, name='save'),
